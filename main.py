@@ -7,7 +7,7 @@ from aiogram import Bot, Dispatcher, types, F
 from aiogram.types import ChatPermissions, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from aiogram.filters import Command, BaseFilter
 
-TOKEN = "8335628903:AAGsyseEKhZt0pALcaM1AgJRQSkLLP3U7JE"  
+TOKEN = "BOT_TOKEN"  
 BOT_USERNAME = "Tozalovchi_Qorovul1_bot" 
 CHANNEL_ID = "@Kimyo_imtihon_savollar"  
 
@@ -156,4 +156,5 @@ if __name__ == "__main__":
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
+
         print("Bot to'xtatildi!")
